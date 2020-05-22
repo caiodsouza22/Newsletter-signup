@@ -41,7 +41,7 @@ const url = "https://us18.api.mailchimp.com/3.0/lists/06a4e88c4c";
 
 const options = {
     method: "POST",
-    auth: "Caio:0044a9f70dae6ff34df5b11db86429cf-us18"
+    auth: "your authentication"
     
   };
 
@@ -74,8 +74,6 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("Server is running on port 3000.");
   });
   
-  // API KEY
-  // 0044a9f70dae6ff34df5b11db86429cf-us18 
-
+  
   //List ID
   // 06a4e88c4c 
